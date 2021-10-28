@@ -1,0 +1,14 @@
+ipcpl*.log
+ipsim*.log
+transcript
+modelsim.ini
+work/
+paulib/
+CVS/
+tmp/
+m2onalib/
+onabfmlib/
+vish_stacktrace.vstf
+db/
+incremental_db/
+vsim.wlf

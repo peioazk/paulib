@@ -1,0 +1,40 @@
+# -------------------------------------------------------------------------------------------------------------------
+# File : paulib.ipfpga
+# Projec : counter
+# Description : IPCPL Compilation resource datafile.
+# -------------------------------------------------------------------------------------------------------------------
+[PROJECT]
+paulib
+[END]
+
+[IP_LIST]
+[END]
+
+[IP_SIM_LIST]
+[END]
+
+[PROJECT_LIBRARY]
+paulib
+[END]
+
+[PROJECT_SOURCES]
+rtl/paulib.vhd paulib
+[END]
+
+[TB_SOURCES]
+#tb/tb_paulib.vhd
+[END]
+
+[ALTERA]
+[10cl006ye144c8g]
+[ENDSUB]
+[END]
+
+[MODELSIM]
+vhdl_options -2008 -explicit
+[END]
+
+[DIR_STRUCT]
+# set directories relative to project directory
+sim_dir sim/
+[END]
